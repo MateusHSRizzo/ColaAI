@@ -1,0 +1,29 @@
+# Core do Streamlit
+streamlit
+
+# LangChain e ecossistema
+langchain
+langchain-community
+langchain-groq
+langchain-openai
+
+# OpenAI embeddings
+openai  # necessário mesmo usando langchain-openai
+
+# Carregamento de arquivos
+pypdf
+pdfminer.six
+unstructured[pdf]
+python-docx  # para leitura de .docx
+python-dotenv
+
+# Web scraping e dados externos
+bs4
+fake_useragent
+youtube_transcript_api
+
+# Playwright (para unstructured)
+playwright
+
+# Outros (sugestões úteis)
+tiktoken  # para usar embeddings e contagem de tokens com OpenAI
