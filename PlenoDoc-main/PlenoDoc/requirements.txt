@@ -1,18 +1,21 @@
+# Requisitos principais da aplicação
 streamlit
 langchain
+langchain-core
 langchain-community
 langchain-groq
 langchain-openai
-openai
+pydantic
+
+# Requisitos para vetorização e busca
+faiss-cpu  # Essencial para a busca FAISS
+sentence-transformers # Essencial para HuggingFaceEmbeddings
+
+# Requisitos para processamento de documentos
 pypdf
+python-docx
 pdfminer.six
-unstructured[pdf]
-python-docx  # para leitura de .docx
+unstructured  # Requerido pelos loaders UnstructuredCSVLoader e UnstructuredWordDocumentLoader
+
+# Utilitários
 python-dotenv
-bs4
-fake_useragent
-youtube_transcript_api
-playwright
-tiktoken  # para usar embeddings e contagem de tokens com OpenAI
-sentence-transformers
-faiss-cpu
