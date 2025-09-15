@@ -103,7 +103,7 @@ def painel_documentos():
 
 def sidebar():
     """Renderiza a barra lateral de configurações."""
-    st.sidebar.header("Configurações do PlenoDoc")
+    st.sidebar.header("Configurações do ColaAI")
     
     tabs = st.sidebar.tabs(['Gerenciar Documentos', 'Seleção de Modelo'])
     
@@ -191,4 +191,5 @@ def main():
         pagina_login()
         
 if __name__ == '__main__':
+
     main()
